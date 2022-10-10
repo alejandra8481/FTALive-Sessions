@@ -1,6 +1,6 @@
 # Milestone: Scan File Shares
 
-#### [prev](./scan.md) | [home](./readme.md)  | [next](./landingzone.md)
+#### [prev](./assess.md) | [home](./readme.md)  | [next](./landingzone.md)
 
 The following content can be used as a checklist to incorporate within your migration project plan to ensure best practices.
 ## **Discover Source Shares** 
