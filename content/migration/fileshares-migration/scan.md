@@ -3,14 +3,16 @@
 #### [prev](./assess.md) | [home](./readme.md)  | [next](./landingzone.md)
 
 The following content can be used as a checklist to incorporate within your migration project plan to ensure best practices.
-## **Discover Source Shares** 
+## **Discover Source File Shares** 
 
 ### Choose between automated vs. manual approach
-[Discovery](https://docs.microsoft.com/en-us/azure/storage/common/storage-migration-overview?toc=/azure/storage/blobs/toc.json#discovery-phase) phase automated approaches encompass wizard driven tools which auto discover and inventory source file share environments. A manual approach refers to building custom scripts. 
+In the [Discovery](https://docs.microsoft.com/en-us/azure/storage/common/storage-migration-overview?toc=/azure/storage/blobs/toc.json#discovery-phase) phase, you can take manual approach or use automated tools.
+- Automated approach: encompass wizard driven tools which auto discover and inventory source file share environments.
+- Manual approach: refers to building custom scripts or using native file service capabilities. 
  
 ### Review if automated discovery tool supports desired sources and destinations
 
-- [Storage Migration Service](https://docs.microsoft.com/en-us/windows-server/storage/storage-migration-service/overview#how-the-migration-process-works)
+- [Storage Migration Service](https://learn.microsoft.com/en-us/windows-server/storage/storage-migration-service/overview#requirements)
 - [File Sync Service and Third Party ISVs](https://docs.microsoft.com/en-us/azure/storage/solution-integration/validated-partners/data-management/migration-tools-comparison?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/toc.json#supported-azure-services)
 - [NetApps Cloud Sync](https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html)
 ### Review if automated discovery tool provides desired assessments and reporting
